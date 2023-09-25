@@ -1,0 +1,14 @@
+def MaxVal(list):
+	if len(list) == 0:
+		return "list is empty"
+
+	maxVal = list[0]
+	for i in list:
+		if i > maxVal:
+			maxVal = i
+
+	return maxVal
+
+list=[24,4,3,99]
+value = MaxVal(list)
+print(value)
